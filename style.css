@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.title {
+    text-align: center;
+}
+
+.subtitle {
+    color: #9a6700;
+    text-align: center;
+    margin: 20px;
+}
+
+.parrafo {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    text-decoration: solid;
+}
+
+.img-link{
+    width: 30%;
+    margin-left: 35%;
+}
