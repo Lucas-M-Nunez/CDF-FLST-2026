@@ -6,16 +6,6 @@ let res;
 num = 2;
 num2 = 4;
 
-
-switch (key) {
-    case value:
-        
-        break;
-
-    default:
-        break;
-}
-
 function suma() {
   res = num + num2;
   return res

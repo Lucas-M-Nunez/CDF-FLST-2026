@@ -1,24 +1,54 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
 }
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
 .title {
-    text-align: center;
+  text-align: center;
+  height: 30px;
+}
+
+.navegador {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  margin: 10px;
+}
+
+.lista {
+  display: flex;
+  gap: 10%;
+}
+
+li {
+    list-style: none;
 }
 
 .subtitle {
-    color: #9a6700;
-    text-align: center;
-    margin: 20px;
+  color: #9a6700;
+  text-align: center;
+  margin: 20px;
 }
 
 .parrafo {
-    text-align: center;
-    width: 50%;
-    margin-left: 25%;
-    text-decoration: solid;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  text-decoration: solid;
 }
 
-.img-link{
-    width: 30%;
-    margin-left: 35%;
+.img-link {
+  width: 30%;
+  margin-left: 35%;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
 }
